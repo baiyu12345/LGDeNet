@@ -14,7 +14,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import utils
 
-from transformer import U_plusformer3
+from transformer import CTHNet
 from skimage import img_as_ubyte
 import h5py
 import scipy.io as sio
