@@ -2508,7 +2508,7 @@ class U_plusformer2(nn.Module):
 
 
 
-class U_plusformer3(nn.Module):
+class CTHNet(nn.Module):
     def __init__(self, img_size=128, in_chans=3,
                  embed_dim=64, depths=[2, 2, 2, 2, 2, 2, 2, 2, 2], num_heads=[1, 2, 4, 8, 16, 16, 8, 4, 2],
                  win_size=8, mlp_ratio=4., qkv_bias=True, qk_scale=None,
