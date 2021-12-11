@@ -40,7 +40,7 @@ if args.save_images:
     result_dir_img = os.path.join(args.result_dir, 'png')
     utils.mkdir(result_dir_img)
 
-model_restoration = U_plusformer3()
+model_restoration = CTHNet()
 
 utils.load_checkpoint(model_restoration,args.weights)
 print("===>Testing using weights: ",args.weights)
