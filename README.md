@@ -15,6 +15,11 @@ The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoU
 
 ## Feature Visualization
 ![](img/vis_ml.png)
+## performance
+
+![](img/pic1.png)
+![](img/pic2.png)
+
 
 ## Synthetic image denoising
 ### BSD68 Dataset
