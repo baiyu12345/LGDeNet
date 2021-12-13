@@ -28,6 +28,9 @@ The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoU
 ### DnD Dataset
 ![](img/real2.png)
 
+![](img/dnd.png)
+
+
 ## Image Compression Artifact Reduction
 ### LIVE1 Dataset
 ![](img/car1.png)
