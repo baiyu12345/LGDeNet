@@ -1,4 +1,4 @@
-# Bridging CNN and Transformer in Image Restoration
+# Bridging CNN and Transformer in Image Denoising
 This repository is for CTHNet
 ## Introduction
 In this paper, we proposed CTHNet for image restoration, which is a hybrid network with CNNs and Transformer. Specifically, our CTHNet includes CNN units and Transformer units. During the denoising processing, the two kinds of units can exchange information. Benefiting from the locality of CNN, we employ series of channel attention blocks (CABs) in each CNN unit to retain spatial
