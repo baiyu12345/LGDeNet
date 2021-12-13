@@ -9,7 +9,8 @@ continuous downsampling operation. Moreover, we design a
 mutual-learning mechanism to improve the mutual learning
 ability of Transformer and CNN.
 
-
+## pre-trained models
+The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoUUWjhU8SsncEAB5AGGSw) with code:**crk6**.
 ![](img/frame.png)
 
 ## Feature Visualization
