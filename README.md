@@ -1,13 +1,11 @@
-# Bridging CNN and Transformer in Image Denoising
-This repository is for CTHNet
+# DeCformer: Image Denoising Network with CNNs and Transformer
+This repository is for DeCformer
 ## Introduction
-In this paper, we proposed CTHNet for image restoration, which is a hybrid network with CNNs and Transformer. Specifically, our CTHNet includes CNN units and Transformer units. During the denoising processing, the two kinds of units can exchange information. Benefiting from the locality of CNN, we employ series of channel attention blocks (CABs) in each CNN unit to retain spatial
-details in images. In the Transformer unit, we build a multi-scale transformer that utilizes the feature map with different scales to capture long-range dependencies. It is noted that each
-downsampled feature map will be restored to its original size and our Transformer unit utilizes lots of skip connections,
-these are effective ways to reduce information loss caused by
-continuous downsampling operation. Moreover, we design a
-mutual-learning mechanism to improve the mutual learning
-ability of Transformer and CNN.
+In this paper, we propose a hybrid denoising network, named DeCformer, which provides effective parallel computing by connecting CNN with Transformer. DeCfomer is composed of attention-based CNN units and multi-scale Transformer units. 
+% During the denoising processing, mutual-learning mechanism is also designed to exchange the information between CNN and Transformer units. ,
+In the CNN unit, cascaded channel attention blocks (CABs) is utilized to obtain the local information of the degraded image. While,   
+in the Transformer unit, a transformer-based architecture is designed to capture global features. Specifically, we construct a multi-scale feature hierarchical architecture assemble multiple transformer models. In order to reduce the memory cost of Transformer, we expand the channel capacity while reducing the spatial resolution in the process of multi-scale learning. Moreover, a mutual-learning mechanism is applied to improve the learning ability of the whole network, by exchanging the features between Transformer unit and CNN unit. Experimental results show the effectiveness of the proposed DeCformer in synthetic image denoising and real image denoising. In addition, several experiments of JPEG compression artifacts reduction are also
+built to verify the universality of our model. Extensive experiments demonstrate the superiority of the proposed DeCformer. 
 
 ## pre-trained models
 The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoUUWjhU8SsncEAB5AGGSw) with code:**crk6**.
