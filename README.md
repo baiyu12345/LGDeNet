@@ -14,9 +14,11 @@ The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoU
 ## Feature Visualization
 ![](img/vis_ml.png)
 ## performance
+### DnD Dataset
+![](img/pic22.png)
 
-![](img/pic1.png)
-![](img/pic2.png)
+### SIDD Dataset
+![](img/pic11.png)
 
 
 ## Synthetic image denoising
