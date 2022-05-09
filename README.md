@@ -1,4 +1,4 @@
-# DeCformer: Local-Global Decomposite of Deep Image Denoising
+# Local-Global Decomposite of Deep Image Denoising
 This repository is for DeCformer
 ## Introduction
 Image denoising aims to restore a high-quality image from the noisy version.  In this paper, we regard image denoising as a optimization process of a MAP problem and develop a local-global decomposite based denoising network (LGDeNet) integrating the advantages of convolutional models and Transformer models.
