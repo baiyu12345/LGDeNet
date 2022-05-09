@@ -1,4 +1,4 @@
-# Local-Global Decomposite of Deep Image Denoising
+# DeCformer: Image Denoising Network with CNNs and Transformer
 This repository is for DeCformer
 ## Introduction
 Image denoising aims to restore a high-quality image from the noisy version.  In this paper, we regard image denoising as a optimization process of a MAP problem and develop a local-global decomposite based denoising network (LGDeNet) integrating the advantages of convolutional models and Transformer models.
@@ -19,27 +19,27 @@ The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoU
 
 
 ## Synthetic image denoising
-### BSD68 Dataset
+### CBSD68 Dataset
 ![](img/sys1.png)
 ### Kodak24 Dataset
-![](img/sys3.png)
+![](img/sys2.png)
 
 ## Real Image Denoising
 ### SIDD Dataset
-![](img/real1.png)
+![](img/real18.png)
 ![](img/SIDD3.png)
 
 You can download the all [SIDD denoised images](https://pan.baidu.com/s/1rUcImvN61J0uSeIbCqnLvQ) with code:**mk5p**.
 ### DnD Dataset
-![](img/real2.png)
+![](img/real28.png)
 
 ![](img/dnd.png)
 
 
 ## Image Compression Artifact Reduction
 ### LIVE1 Dataset
-![](img/car1.png)
-![](img/car2.png)
+![](img/car18.png)
+![](img/car28.png)
 
 ## Train and Test
 The source code is coming...
