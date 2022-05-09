@@ -22,7 +22,7 @@ The pre-trained models are available at [Baidu Yun](https://pan.baidu.com/s/1WoU
 ### BSD68 Dataset
 ![](img/sys1.png)
 ### Kodak24 Dataset
-![](img/sys2.png)
+![](img/sys3.png)
 
 ## Real Image Denoising
 ### SIDD Dataset
